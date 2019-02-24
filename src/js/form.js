@@ -1,0 +1,1 @@
+$(document).ready(function(){$('.phone').mask("+7(999)999-9999",{autoclear:false});$.validator.addMethod("checkMask",function(value,element){return this.optional(element)||/\+\d{1}\(\d{3}\)\d{3}-\d{4}/g.test(value);},"Введенный номер не корректен");$("#contact-form").validate({rules:{phone:{required:true,'checkMask':true},},})})

@@ -1,0 +1,29 @@
+mixin review
+	.owl-carousel-item.review-carousel-item
+		.review-card
+			.review-card__img
+				img(src="img/reviewBg.png", alt="")
+
+			.review-card__text.
+				Я просто в восторге! Не ожидала получить такую большую коробочку, где будет столько люксовой косметики и совершенно бесплатно!Посылка дошла до Омска за 6 дней. Простите за не качественное фото, такой у меня телефон. С нетерпением жду, когда начнется продажи и закажу еще одну коробочку. Большое вам спасибо.
+			.review-card__author Ольга К., 25 лет, Москва
+section.review
+	.container
+		.title-2.text-center Отзывы подписчиц коробочек красоты
+		.review-wrapper
+			.carousel-wrapper
+				.owl-carousel.review-carousel
+					+review
+					+review
+					+review
+					+review
+					+review
+					+review
+					+review
+					+review
+
+
+
+
+			.review-carousel-controls
+				.review-title Отзывы подписчиц коробочек красоты

@@ -1,0 +1,16 @@
+extends ../layouts/layout.pug
+
+//-include ../mixins/
+
+
+
+block content
+	include ../sections/header.pug
+	include ../sections/goods.pug
+	include ../sections/brands.pug
+	include ../sections/review.pug
+	include ../sections/footer.pug
+
+
+block variables
+	-var title = "Prime ";

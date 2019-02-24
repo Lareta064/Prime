@@ -1,0 +1,237 @@
+.nav-menu-wrapper
+header.header
+	.container
+		.header-back-bg
+			.nav-menu.d-flex
+				.logo
+					img(src="img/logo.png", alt="")
+				.nav-menu-content
+					.nav-menu-content__contacts.d-flex
+						.contacts-item.contacts-item-phone.d-none.d-lg-flex
+							i.fas.fa-phone
+							a(href="#").header-phone 8 495 374 79 01
+						.contacts-item.contacts-item-mail.d-none.d-lg-flex
+							i.fas.fa-envelope
+							a(href="#").header-mail info@newbeautybox.ru
+						.contacts-item
+							button.cmn-toggle-switch.cmn-toggle-switch__htx#nav-menu-toggle
+								span toggle menu
+						.social-group.d-flex
+							a(href="#").social-group__item
+								i.fab.fa-vk
+							a(href="#").social-group__item
+								i.fab.fa-facebook-f
+							a(href="#").social-group__item
+								i.fab.fa-instagram
+						button.cart-button.d-flex
+							.cart-button-icon.d-flex
+								img(src="img/icons/cart.png", alt="cart")
+							.cart-button-text.d-flex
+								span Корзина
+								span.goods-num 2
+
+						//-скрытое меню
+						#mobile-menu.mobile-menu
+							ul.menu-list.menu-list--mobile
+								li
+									a(href="#").menu-list-item Главная
+								li
+									a(href="#brands").menu-list-item Бренды
+								li
+									a(href="#").menu-list-item Доставка и оплата
+								li
+									a(href="#goods").menu-list-item Тематические коробочки
+								.mobile-menu__contacts
+									.contacts-item.contacts-item-phone.d-flex
+										i.fas.fa-phone
+										a(href="#").header-phone 8 495 374 79 01
+									.contacts-item.contacts-item-mail.d-flex
+										i.fas.fa-envelope
+										a(href="#").header-mail info@newbeautybox.ru
+
+
+
+					.nav-menu-content__links.d-none.d-lg-block
+						ul.menu-list.d-flex
+							li
+								a(href="#").menu-list-item Главная
+							li
+								a(href="#brands").menu-list-item Бренды
+							li
+								a(href="#").menu-list-item Доставка и оплата
+							li
+								a(href="#goods").menu-list-item Тематические коробочки
+
+
+			.owl-carousel.header-carousel
+				.owl-carousel-item.header-carousel-item
+					.header-carousel-img
+						img(src="img/header/slide1.jpg", alt="")
+						.header-carousel-text
+							h1.header-carousel-text__title
+								span.font-weight-400 Совершенная
+								br
+								span кожа
+							.description-text.
+								Встречай новый бокс, который подарит тебе уверенность в себе!
+							.price-text
+								span.price-num #[b 6500]
+									sup rub
+								br
+								span Стоимость содержимого коробки
+							.new-price
+								span.new-price-text Новая ЦЕНА
+								br
+								span.new-price-num #[b 1500]
+									sup rub
+							a(href="#" class="buy-btn") Заказать #[span.hidden-box коробочку]
+
+				.owl-carousel-item.header-carousel-item
+					.header-carousel-img
+						img(src="img/header/slide1.jpg", alt="")
+						.header-carousel-text
+							h1.header-carousel-text__title
+								span.font-weight-400 Совершенная
+								br
+								span кожа
+							.description-text.
+								Встречай новый бокс, который подарит тебе уверенность в себе!
+							.price-text
+								span.price-num #[b 6500]
+									sup rub
+								br
+								span Стоимость содержимого коробки
+							.new-price
+								span.new-price-text Новая ЦЕНА
+								br
+								span.new-price-num #[b 1500]
+									sup rub
+							a(href="#" class="buy-btn") Заказать #[span.hidden-box коробочку]
+
+				.owl-carousel-item.header-carousel-item
+					.header-carousel-img
+						img(src="img/header/slide1.jpg", alt="")
+						.header-carousel-text
+							h1.header-carousel-text__title
+								span.font-weight-400 Совершенная
+								br
+								span кожа
+							.description-text.
+								Встречай новый бокс, который подарит тебе уверенность в себе!
+							.price-text
+								span.price-num #[b 6500]
+									sup rub
+								br
+								span Стоимость содержимого коробки
+							.new-price
+								span.new-price-text Новая ЦЕНА
+								br
+								span.new-price-num #[b 1500]
+									sup rub
+							a(href="#" class="buy-btn") Заказать #[span.hidden-box коробочку]
+.header-mobile-menu
+	.logo
+		img(src="img/logo.png", alt="logo")
+	button#mobileMenuShow.cmn-toggle-switch.cmn-toggle-switch__htx
+		span toggle menu
+
+	.cart-button-icon.cart-button---mobile
+		img(src="img/icons/cart.png", alt="cart")
+		span.goods-num.goods-num-mobile 2
+	#mobile-menu2.mobile-menu
+
+		ul.menu-list.menu-list--mobile
+			li
+				a(href="#").menu-list-item Главная
+			li
+				a(href="#brands").menu-list-item Бренды
+			li
+				a(href="#").menu-list-item Доставка и оплата
+			li
+				a(href="#goods").menu-list-item Тематические коробочки
+
+			.mobile-menu__contacts
+				.contacts-item.contacts-item-phone.d-flex
+					i.fas.fa-phone
+					a(href="#").header-phone 8 495 374 79 01
+				.contacts-item.contacts-item-mail.d-flex
+					i.fas.fa-envelope
+					a(href="#").header-mail info@newbeautybox.ru
+
+			.social-group.social-group--mobile
+				a(href="#").social-group__item
+					i.fab.fa-vk
+				a(href="#").social-group__item
+					i.fab.fa-facebook-f
+				a(href="#").social-group__item
+					i.fab.fa-instagram
+
+
+
+header.header-mobile
+
+	.container
+		.owl-carousel.header-mobile-slider
+			.owl-carousel-item.header-mobile-item
+				.mobile-slider-bg
+					img(src="img/header/mobile-slide1.jpg", alt="")
+				h1.header-mobile-item__title
+					span.font-weight-400 Совершенная
+					br
+					span кожа
+				.header-mobile-item__text
+					.description-text.
+						Встречай новый бокс, который подарит тебе уверенность в себе!
+					.price-text
+						span.price-num #[b 6500]
+							sup rub
+						br
+						span Стоимость содержимого коробки
+					.new-price
+						span.new-price-text Новая ЦЕНА
+						br
+						span.new-price-num #[b 1500]
+							sup rub
+				a(href="#" class="buy-btn") Заказать коробочку
+			.owl-carousel-item.header-mobile-item
+				.mobile-slider-bg
+					img(src="img/header/mobile-slide1.jpg", alt="")
+				h1.header-mobile-item__title
+					span.font-weight-400 Совершенная
+					br
+					span кожа
+				.header-mobile-item__text
+					.description-text.
+						Встречай новый бокс, который подарит тебе уверенность в себе!
+					.price-text
+						span.price-num #[b 6500]
+							sup rub
+						br
+						span Стоимость содержимого коробки
+					.new-price
+						span.new-price-text Новая ЦЕНА
+						br
+						span.new-price-num #[b 1500]
+							sup rub
+				a(href="#" class="buy-btn") Заказать коробочку
+			.owl-carousel-item.header-mobile-item
+				.mobile-slider-bg
+					img(src="img/header/mobile-slide1.jpg", alt="")
+				h1.header-mobile-item__title
+					span.font-weight-400 Совершенная
+					br
+					span кожа
+				.header-mobile-item__text
+					.description-text.
+						Встречай новый бокс, который подарит тебе уверенность в себе!
+					.price-text
+						span.price-num #[b 6500]
+							sup rub
+						br
+						span Стоимость содержимого коробки
+					.new-price
+						span.new-price-text Новая ЦЕНА
+						br
+						span.new-price-num #[b 1500]
+							sup rub
+				a(href="#" class="buy-btn") Заказать коробочку
